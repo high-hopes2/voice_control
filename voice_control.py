@@ -12,7 +12,7 @@ import google.generativeai as genai  # Імпорт бібліотеки шту�
 PI_IP = 'raspberrypi.local' 
 PORT = 65432
 
-GEMINI_API_KEY = "AIzaSyAYuH0htYYdBinW7ZNKqDQCiaHNfi7v4ck"
+GEMINI_API_KEY = ""
 
 # Initialize Gemini ШІ
 try:
@@ -149,7 +149,7 @@ def run_control_mode():
 
 def ask_gemini_ai(question):
     """Звернення до безкоштовного ШІ Gemini, якщо відповіді немає в коді"""
-    if not ai_enabled or GEMINI_API_KEY == "AIzaSyAYuH0htYYdBinW7ZNKqDQCiaHNfi7v4ck":
+    if not ai_enabled or GEMINI_API_KEY == "":
         return "Цікаве питання! Запитай мене краще про мої датчики, режими роботи, плату Raspberry Pi або про мою творчиню Надію."
     try:
         print("[Запит до ШІ Gemini...]")
