@@ -8,7 +8,7 @@ from gtts import gTTS
 import pygame
 
 # Network configuration
-PI_IP = '192.168.1.101' 
+PI_IP = 'raspberrypi.local' 
 PORT = 65432
 
 # Initialize audio playback and speech recognizer
