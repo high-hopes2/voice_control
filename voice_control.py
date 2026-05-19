@@ -9,7 +9,7 @@ import pygame
 import google.generativeai as genai  # Імпорт бібліотеки штучного інтелекту
 
 # Network configuration
-PI_IP = '192.168.1.101' 
+PI_IP = 'raspberrypi.local' 
 PORT = 65432
 
 GEMINI_API_KEY = "AIzaSyAYuH0htYYdBinW7ZNKqDQCiaHNfi7v4ck"
