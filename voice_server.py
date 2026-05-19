@@ -1,4 +1,4 @@
-# File: voice_control.py (RUN ON RASPBERRY PI)
+# File: voice_server.py (RUN ON RASPBERRY PI)
 import socket
 import time
 import threading
